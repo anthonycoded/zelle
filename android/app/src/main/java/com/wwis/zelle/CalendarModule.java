@@ -1,5 +1,7 @@
 package com.wwis.zelle;
 
+import android.util.Log;
+
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContext;
@@ -15,5 +17,11 @@ public class CalendarModule extends ReactContextBaseJavaModule {
     @Override
     public String getName() {
         return "CalendarModule";
+    }
+
+
+    @ReactMethod
+    public void createCalendarEvent() {
+        Log.d("Calendar Module", "Logged from our calendar module");
     }
 }

@@ -1,0 +1,3 @@
+{
+  "android": { "modules": ["expo.modules.kotlin.KotlinInteropModuleRegistry"] }
+}

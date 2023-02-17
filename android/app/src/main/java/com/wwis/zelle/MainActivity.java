@@ -18,6 +18,10 @@ public class MainActivity extends ReactActivity {
     setContentView(R.layout.activity_main);
     
   }
+  public void startZelle(View view) {
+    Intent intent = new Intent(this, ZelleWebviewActivity.class);
+    tartActivity(intent);
+  }
 
   /**
    * Returns the name of the main component registered from JavaScript.

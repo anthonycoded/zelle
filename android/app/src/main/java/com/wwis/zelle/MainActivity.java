@@ -1,7 +1,9 @@
 package com.wwis.zelle;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -20,7 +22,7 @@ public class MainActivity extends ReactActivity {
   }
   public void startZelle(View view) {
     Intent intent = new Intent(this, ZelleWebviewActivity.class);
-    tartActivity(intent);
+    startActivity(intent);
   }
 
   /**

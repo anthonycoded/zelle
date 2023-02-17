@@ -1,4 +1,4 @@
-package com.fis.digitalpayments.sdk.sample;
+package com.wwis.zelle;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -27,6 +27,7 @@ public class ZelleWebviewActivity extends AppCompatActivity {
     private final  String[] domainWhitelist = {"epayments-crossdomain-fnc.billdomain.com", "epayments-epayui-uat-1.money-movement.com", "epayments-epayui-uat-3.money-movement.com","epayments-epayui-fnc-3.money-movement.com","10.0.2.2"};
     private String ssoResponseHtml = "<html><head><title></title></head><body onLoad='document.ssoform.submit()'><form method='GET' action='https://epayments-crossdomain-fnc.billdomain.com/Mobile/Index.html' name='ssoform'></body></html>";
 
+  
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

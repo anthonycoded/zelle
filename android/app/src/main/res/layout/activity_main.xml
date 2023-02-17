@@ -9,7 +9,8 @@
         android:id="@+id/button_zelle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/zelle_button"
-        android:onClick="startZelle"/>
+        android:onClick="startZelle"
+        android:text="@string/zelle_button" 
+        android:clickacble="true"/>
 
 </LinearLayout>

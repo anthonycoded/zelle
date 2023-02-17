@@ -16,7 +16,7 @@ public class MainActivity extends ReactActivity {
     setTheme(R.style.AppTheme);
     super.onCreate(null);
     setContentView(R.layout.activity_main);
-    
+
   }
 
   /**

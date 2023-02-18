@@ -69,11 +69,13 @@ public class ZelleWebviewActivity extends AppCompatActivity {
             }
         });
 
-        // Directly load test site
-        //webView.loadUrl("https://snitest.readiness.billsupport.com/Mobile/Index.html");
+
 
         // Load SSO response from String
         try {
+            // Directly load test site
+            //webView.loadUrl("https://snitest.readiness.billsupport.com/Mobile/Index.html");
+
             webView.loadUrl("https://epayments-crossdomain-fnc.billdomain.com/Mobile/Index.html");
             //String base64Data = Base64.encodeToString(ssoResponseHtml.getBytes("UTF-8"), Base64.DEFAULT);
             //webView.loadData(base64Data, "text/html;charset=utf-8", "base64");

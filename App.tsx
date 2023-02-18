@@ -1,45 +1,26 @@
 import { StatusBar } from "expo-status-bar";
 import { useEffect } from "react";
-import {
-  Button,
-  StyleSheet,
-  Text,
-  View,
-  NativeEventEmitter,
-} from "react-native";
+import { Button, StyleSheet, Text, View } from "react-native";
 import { NativeModules } from "react-native";
-const { CalendarModule } = NativeModules;
-const eventEmitter = new NativeEventEmitter(CalendarModule);
 
 export default function App() {
-  const createCalendarEventPromise = async () => {
+  const openZelle = NativeModules.OpenZelleModule;
+  const OpenZelle = async () => {
     try {
-      let res = await CalendarModule.createCalendarPromise();
-      console.log(res);
+      openZelle.open();
     } catch (error) {
       console.log(error);
     }
   };
 
-  useEffect(() => {
-    eventEmitter.addListener("EventCount", (eventCount) => {
-      console.log(eventCount);
-    });
-
-    return () => {
-      eventEmitter.removeAllListeners("EventCount");
-    };
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
 
-      <Button
-        title="Calendar Event Promise"
-        onPress={createCalendarEventPromise}
-      />
+      <Button title="Zelle Transfer" onPress={OpenZelle} />
     </View>
   );
 }

@@ -3,6 +3,8 @@ package com.wwis.zelle;
 import android.app.Application;
 import android.content.Context;
 import android.content.res.Configuration;
+import android.os.Bundle;
+
 import androidx.annotation.NonNull;
 
 import com.facebook.react.PackageList;
@@ -59,6 +61,7 @@ public class MainApplication extends Application implements ReactApplication {
   @Override
   public void onCreate() {
     super.onCreate();
+
     // If you opted-in for the New Architecture, we enable the TurboModule system
     ReactFeatureFlags.useTurboModules = BuildConfig.IS_NEW_ARCHITECTURE_ENABLED;
     SoLoader.init(this, /* native exopackage */ false);

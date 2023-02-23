@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323D6A84259E6AAE0014A23D /* FISDigitalPaymentsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323D6A83259E6AAE0014A23D /* FISDigitalPaymentsSDK.xcframework */; };
+		323D6A85259E6AAE0014A23D /* FISDigitalPaymentsSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 323D6A83259E6AAE0014A23D /* FISDigitalPaymentsSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32E8845222147816006852DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8845122147816006852DB /* AppDelegate.swift */; };
+		32E8845422147816006852DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8845322147816006852DB /* ViewController.swift */; };
+		32E8845722147816006852DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E8845522147816006852DB /* Main.storyboard */; };
+		32E8845922147819006852DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E8845822147819006852DB /* Assets.xcassets */; };
+		32E8845C22147819006852DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E8845A22147819006852DB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32E8846322147819006852DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E8844622147815006852DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E8844D22147816006852DB;
+			remoteInfo = "FISDigitalPaymentsSDK Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32B96F362593B35A001D9706 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				323D6A85259E6AAE0014A23D /* FISDigitalPaymentsSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		323D6A83259E6AAE0014A23D /* FISDigitalPaymentsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FISDigitalPaymentsSDK.xcframework; sourceTree = "<group>"; };
+		32E8844E22147816006852DB /* FISDigitalPaymentsSDK Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FISDigitalPaymentsSDK Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E8845122147816006852DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32E8845322147816006852DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32E8845622147816006852DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32E8845822147819006852DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32E8845B22147819006852DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32E8845D22147819006852DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E8846222147819006852DB /* FISDigitalPaymentsSDK SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FISDigitalPaymentsSDK SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E8844B22147816006852DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323D6A84259E6AAE0014A23D /* FISDigitalPaymentsSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E8845F22147819006852DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328FE270235129DD00369AB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				323D6A83259E6AAE0014A23D /* FISDigitalPaymentsSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32E8844522147815006852DB = {
+			isa = PBXGroup;
+			children = (
+				32E8845022147816006852DB /* FISDigitalPaymentsSDK Sample */,
+				32E8844F22147816006852DB /* Products */,
+				328FE270235129DD00369AB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32E8844F22147816006852DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E8844E22147816006852DB /* FISDigitalPaymentsSDK Sample.app */,
+				32E8846222147819006852DB /* FISDigitalPaymentsSDK SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32E8845022147816006852DB /* FISDigitalPaymentsSDK Sample */ = {
+			isa = PBXGroup;
+			children = (
+				32E8845122147816006852DB /* AppDelegate.swift */,
+				32E8845322147816006852DB /* ViewController.swift */,
+				32E8845522147816006852DB /* Main.storyboard */,
+				32E8845822147819006852DB /* Assets.xcassets */,
+				32E8845A22147819006852DB /* LaunchScreen.storyboard */,
+				32E8845D22147819006852DB /* Info.plist */,
+			);
+			path = "FISDigitalPaymentsSDK Sample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32E8844D22147816006852DB /* FISDigitalPaymentsSDK Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E8846B22147819006852DB /* Build configuration list for PBXNativeTarget "FISDigitalPaymentsSDK Sample" */;
+			buildPhases = (
+				32E8844A22147816006852DB /* Sources */,
+				32E8844B22147816006852DB /* Frameworks */,
+				32E8844C22147816006852DB /* Resources */,
+				32B96F362593B35A001D9706 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FISDigitalPaymentsSDK Sample";
+			productName = "FISDigitalPaymentsSDK Sample";
+			productReference = 32E8844E22147816006852DB /* FISDigitalPaymentsSDK Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32E8846122147819006852DB /* FISDigitalPaymentsSDK SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E8846E22147819006852DB /* Build configuration list for PBXNativeTarget "FISDigitalPaymentsSDK SampleUITests" */;
+			buildPhases = (
+				32E8845E22147819006852DB /* Sources */,
+				32E8845F22147819006852DB /* Frameworks */,
+				32E8846022147819006852DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32E8846422147819006852DB /* PBXTargetDependency */,
+			);
+			name = "FISDigitalPaymentsSDK SampleUITests";
+			productName = "FISDigitalPaymentsSDK SampleUITests";
+			productReference = 32E8846222147819006852DB /* FISDigitalPaymentsSDK SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32E8844622147815006852DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = FIS;
+				TargetAttributes = {
+					32E8844D22147816006852DB = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+					32E8846122147819006852DB = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						TestTargetID = 32E8844D22147816006852DB;
+					};
+				};
+			};
+			buildConfigurationList = 32E8844922147815006852DB /* Build configuration list for PBXProject "FISDigitalPaymentsSDK Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32E8844522147815006852DB;
+			productRefGroup = 32E8844F22147816006852DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32E8844D22147816006852DB /* FISDigitalPaymentsSDK Sample */,
+				32E8846122147819006852DB /* FISDigitalPaymentsSDK SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32E8844C22147816006852DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E8845C22147819006852DB /* LaunchScreen.storyboard in Resources */,
+				32E8845922147819006852DB /* Assets.xcassets in Resources */,
+				32E8845722147816006852DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E8846022147819006852DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32E8844A22147816006852DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E8845422147816006852DB /* ViewController.swift in Sources */,
+				32E8845222147816006852DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E8845E22147819006852DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32E8846422147819006852DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E8844D22147816006852DB /* FISDigitalPaymentsSDK Sample */;
+			targetProxy = 32E8846322147819006852DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32E8845522147816006852DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E8845622147816006852DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32E8845A22147819006852DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E8845B22147819006852DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32E8846922147819006852DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32E8846A22147819006852DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32E8846C22147819006852DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "FISDigitalPaymentsSDK Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION_VERSION = 2.4.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fisdp.FISDigitalPaymentsSDK-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32E8846D22147819006852DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "FISDigitalPaymentsSDK Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION_VERSION = 2.4.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fisdp.FISDigitalPaymentsSDK-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32E8846F22147819006852DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FISDigitalPaymentsSDK SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fis.FISDigitalPaymentsSDK-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FISDigitalPaymentsSDK Sample";
+			};
+			name = Debug;
+		};
+		32E8847022147819006852DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FISDigitalPaymentsSDK SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fis.FISDigitalPaymentsSDK-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FISDigitalPaymentsSDK Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E8844922147815006852DB /* Build configuration list for PBXProject "FISDigitalPaymentsSDK Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E8846922147819006852DB /* Debug */,
+				32E8846A22147819006852DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E8846B22147819006852DB /* Build configuration list for PBXNativeTarget "FISDigitalPaymentsSDK Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E8846C22147819006852DB /* Debug */,
+				32E8846D22147819006852DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E8846E22147819006852DB /* Build configuration list for PBXNativeTarget "FISDigitalPaymentsSDK SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E8846F22147819006852DB /* Debug */,
+				32E8847022147819006852DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32E8844622147815006852DB /* Project object */;
+}

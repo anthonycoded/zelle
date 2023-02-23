@@ -1,0 +1,27 @@
+Release Notes
+
+Digital Payments SDK 2.4.4 (November 2021)
+- Compiled with XCode 13.1
+- Bugfix for null email address on email contact or null phone number on phone number contact
+
+Digital Payments SDK 2.4.3 (October 2021)
+- Added dispose methods for releasing listeners on web views
+- Support for iOS 11
+- Updated language for Android prominent disclosure
+
+Digital Payments SDK 2.4.2 (January 2021)
+- iOS packaging changed from fat universal binary to new xcframework format
+- Prominent disclosure for contact access added to Android 
+
+Digital Payments SDK 2.4.1 (September 2019)
+- Compiled iOS for module stability
+
+Digital Payments SDK 2.4.0 (August 2019)
+- Added internal support for picking single contacts
+
+Digital Payments SDK 2.3.0 (April 2019)
+- SDKManager.register call changed to SDKManager.create
+- Flexible domain whitelisting
+- Improved resource management
+- Added code samples for each platform
+- Added script samples to strip bitcode and invalid architectures
